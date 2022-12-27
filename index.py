@@ -17,7 +17,7 @@ def metadata(id):
   
   js = req.get(url).json()
 
-  js['name'] = "Bored Market Ape #{id}",
+  js['name'] = f"Bored Market Ape #{id}",
 
   #js['description'] = f'A collection of 2,222 NFTs living in chaos under Polygon Blockchain.'
   
