@@ -19,7 +19,7 @@ def metadata(id):
 
   js['name'] = "Bored Market Ape #{id}",
 
-  js['description'] = f'A collection of 2,222 NFTs living in chaos under Polygon Blockchain.'
+  #js['description'] = f'A collection of 2,222 NFTs living in chaos under Polygon Blockchain.'
   
   return jsonify(js)
 
